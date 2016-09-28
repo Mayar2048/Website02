@@ -1,0 +1,176 @@
+body {background-color: #1d1d1d}
+
+.clear {clear: both}
+
+h1 {
+    color: #FFF;
+    font-size: 100px;
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    font-weight: 300;
+    padding: 0;
+    margin: -25px 0 -10px;
+    
+}
+
+h2 {
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    font-size: 3em
+}
+
+h3 {
+    color: #ad7835;
+    border-bottom: 1px solid #ad7835;
+    padding: 10px 0px;
+    font-weight: 1.2em
+    
+}
+
+button, .submit {
+    background: none;
+    border: 1px solid #ad7835;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    color: #ad7835
+}
+
+.read-more {
+    background: none;
+    padding: 10px 0px;
+    border: 0;
+    text-transform: uppercase;
+    color: #ad7835;
+    font-weight: 700
+}
+
+span {border-bottom: 2px solid #ad7835}
+
+p {color: #ececec;padding: 10px 0;line-height: 1.5}
+
+h2 {color: #ad7835;}
+
+body > div {padding: 100px 0px 0px}
+
+.container {width: 1170px;margin: auto;}
+
+i {color: #ad7835;border: 1px solid #ad7835;padding: 10px 15px;}
+
+ul {text-align: center}
+
+li {list-style-type: none;display: inline-block;padding: 0 5px}
+
+.header {
+    background-image: url(../images/travel.jpg);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 800px;
+}
+
+.header .container .travel {
+    border: 8px solid #ad7835;
+    width: 50%;
+    height: 250px;
+    margin: 100px auto;
+    text-align: center
+}
+
+.header .container .travel .white-text {color: #FFF;margin: auto;padding-top: 35px}
+
+.header .container .travel span {border-bottom: 1px solid #FFF }
+
+.header .container .travel h5 {text-transform: uppercase;font-weight: 500;color: #ad7835}
+
+.about-me .container > div {
+    background-color: #373737;
+    width: 40%;
+    float: left;
+    height: 500px;
+    padding: 0 5%
+}
+
+.about-me .container > div img {width: 100%;height: 110%;margin-top: -25px}
+
+.lastest-articles .container {overflow: hidden}
+
+.lastest-articles .container .clear {clear: both}
+
+.lastest-articles .container h2 {text-align: center;padding-top: 80px}
+
+.lastest-articles .container .article1,  .article2, .article3{width: 28.3%;float: left}
+
+.lastest-articles .container .article1 {padding-right: 5%}
+
+.lastest-articles .container .article2 {padding: 0 2.5%;margin-top: 100px}
+
+.lastest-articles .container .article3 {padding-left: 5%}
+
+.lastest-articles .container img {width: 90%;margin-left: 12%;margin-top: -85%}
+
+.lastest-articles .container > div .back {background-color: #373737;width: 88%;min-height: 320px}
+
+.gallery .container .first {overflow: hidden;height: 400px}
+
+.gallery .container .first .first-img1 {padding-left: 3%;margin-top: 75px}
+
+.gallery .container .first .first-img2 {padding: 0 2%}
+
+.gallery .container .first .first-img3 {padding-right: 3%;margin-top: 100px}
+
+.gallery .container .first > div {width: 30%;float: left}
+
+.gallery .container .first > div img {width: 100%}
+
+.gallery .container .second {height: 400px}
+
+.gallery .container .second > div {float: left}
+
+.gallery .container .second > div img {width: 100%}
+
+.gallery .container .second .second-img1 {width: 33%}
+
+.gallery .container .second .second-img2 {padding-left: 2%;margin-top: -75px;width: 65%}
+
+.gallery .container .third {height: 200px}
+
+.gallery .container .third > div {float: right}
+
+.gallery .container .third > div img {width: 100%;margin-top: -150px}
+
+.gallery .container .third .third-img1 {width: 30%;padding-right: 3%}
+
+.gallery .container .third .third-img2 {width: 30%;padding: 0 2%}
+
+.contact .container > div {
+    background-color: #373737;
+    width: 40%;
+    float: left;
+    height: 500px;
+    padding: 0 5%
+}
+
+.contact .container .note-img img{margin-top: -40px;}
+
+label {color: #FFF}
+
+form {overflow: hidden}
+
+form > div {display: inline;float: left;width: 50%}
+
+.config {
+    padding: 10px auto;
+    background: none;
+    border: 0;
+    border-bottom: 1px solid #737373;
+    margin: 0px 0px 20px;
+    color: #ad7835
+}
+
+textarea {
+    background: none;
+    border: 0;
+    border-bottom: 1px solid #737373;
+    margin: 20px 0px;
+    color: #ad7835;
+    width: 100%
+}
